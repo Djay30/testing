@@ -1,0 +1,11 @@
+namespace deb2.DemoHDBModule;
+
+context SalesRev {
+
+    /*@@layout{"layoutInfo":{"x":158,"y":95.5}}*/
+    entity Sale {
+        Item_id : String(10);
+        Item    : String(10);
+        Sales   : Integer;
+    };
+};
