@@ -4,8 +4,9 @@ context address {
 
     /*@@layout{"layoutInfo":{"x":164,"y":91.5}}*/
     entity address {
-        key ID        : Integer;
-            City : String(100);
-            Country  : String(100);
+        key ID      : Integer;
+            City    : String(100);
+            Country : String(100);
+            pincode : String(10);
     };
 };
